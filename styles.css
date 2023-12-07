@@ -1,0 +1,32 @@
+.body {
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid-container {
+    display: flex;
+    max-width: 670px;
+    height: auto;
+    flex-wrap: wrap;
+   
+   
+    
+}
+h1 {
+    font-size: 54px;
+}
+
+.small-squares {
+    width: calc(670px / 16);
+    height: calc(670px / 16);
+    border: 0.2px solid rgb(199, 194, 194);
+    box-sizing: border-box;
+    
+}
+.user-squares {
+    border: 0.2px solid rgb(199, 194, 194);
+    box-sizing: border-box;
+}
+
+.createGridButton {
+    font-size: 24px;
+}
